@@ -1,0 +1,50 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+body {
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+	background: url(https://images.unsplash.com/photo-1504693762730-3bbe4acc0f2d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5993d486c15ba8a97a278ee296dc8c5c&auto=format&fit=crop&w=1652&q=80) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+}
+
+
+.main {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.input {
+	font-family: "Times New Roman";
+	font-size: 20px;
+}
+
+.title {
+	color: #3a413a;
+	font-size: 3em;
+	transition: all 1s;	
+}
+
+hr {
+	width: 500px;
+}
+
+.title:hover {
+	transform: scale(1.2);
+}
+
+.in {
+	margin-top: 20px;
+}
